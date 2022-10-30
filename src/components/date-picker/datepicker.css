@@ -1,0 +1,83 @@
+.datepicker-container {
+    border-radius: 15px;
+  }
+  
+  /* ==================================================== */
+  /* DATE PICKER HEADER */
+  /* ==================================================== */
+  .datepicker-header {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #63a5d9;
+    border-radius: inherit;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  .datepicker-header-iconbutton {
+    height: 0.9vw;
+  }
+  
+  .datepicker-header-title {
+    min-width: 60%;
+    text-align: center;
+  }
+  
+  /* ==================================================== */
+  /* DATE PICKER HEADER */
+  /* ==================================================== */
+  .datepicker-body,
+  .datepicker-days-grid,
+  .datepicker-dates-grid {
+    display: flex;
+  }
+  
+  .datepicker-body {
+    height: 80%;
+    padding: 0.5rem;
+    flex-direction: column;
+    border-radius: inherit;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  
+  .datepicker-days-grid,
+  .datepicker-dates-grid {
+    flex-direction: row;
+  }
+  
+  .datepicker-dates-grid {
+    height: 100%;
+    flex-wrap: wrap;
+    margin-top: 0.2rem;
+  }
+  
+  .datepicker-day-cell,
+  .datepicker-date-cell {
+    width: calc(100% / 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .datepicker-date-cell-button {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .datepicker-date-cell-button-selected {
+    background-color: #c7cbd0;
+  }
+  
+  .datepicker-date-cell-button:hover {
+    background-color: #c7cbd0;
+  }
+  

@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  .h1 {
+      font-size: 1.5em;
+    }
+    
+    .h2 {
+      font-size: 1.3em;
+    }
+    
+    .h3 {
+      font-size: 1.1em
+    }
+    
+    .h4 {
+      font-size: 0.9em;
+    }
+    
+    .h5 {
+      font-size: 0.8em;
+    }
+    
+    .h6 {
+      font-size: 0.7em;
+    }
+    
+    .p1 {
+      font-size: 0.6em;
+    }
+    
+    .p2 {
+      font-size: 0.55em;
+    }
+    
+    .p3 {
+      font-size: 0.5em;
+    }
+    
+    .p4 {
+      font-size: 0.45em;
+    }
+    
+    .icon {
+      width: auto;
+    }

@@ -1,0 +1,57 @@
+.datetimepicker-container {
+    height: 1em;
+    width: 2em;
+}
+.datetimepicker-buttons-container {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.datetimepicker-left-button-container,
+.datetimepicker-right-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    /* padding:0.2rem; */
+    border: 1px solid #63A5D9;
+    border-radius: inherit;
+}
+
+.datetimepicker-left-button-container {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right-width: 0.5px;
+}
+
+.datetimepicker-right-button-container {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left-width: 0.5px;
+}
+
+.datetimepicker-iconbutton {
+    height: 60%;
+    /* background-color: red; */
+}
+
+
+/* ==================================================== */
+/* PICKER - DATE PICKER & TIME PICKER */
+/* ==================================================== */
+.picker-container {
+    position: absolute;
+    /* width: 160px;
+    height: 150px; */
+    width: 450%;
+    height: 800%;
+    box-shadow: 1px 1px 3px rgb(167, 167, 167);
+    display: flex;
+    flex-direction: column;
+    background-color: #fafcff;
+  }

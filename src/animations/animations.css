@@ -1,0 +1,15 @@
+.animations-fadeinout-container-enter {
+    opacity: 0;
+  }
+  .animations-fadeinout-container-enter-active {
+    opacity: 1;
+    transition: opacity 500ms;
+  }
+  .animations-fadeinout-container-exit {
+    opacity: 1;
+  }
+  .animations-fadeinout-container-exit-active {
+    opacity: 0;
+    transition: opacity 500ms;
+  }
+  
