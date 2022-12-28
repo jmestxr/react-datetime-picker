@@ -1,7 +1,7 @@
 import React, { FC, useEffect } from "react";
 import { useRef, useState } from "react";
 import { DatePicker } from "../date-picker/DatePicker";
-import { TimePicker } from "../../time-picker/TimePicker";
+import { TimePicker } from "../time-picker/TimePicker";
 
 import { DateTime, DateTimePickerMode } from "../../types/types";
 

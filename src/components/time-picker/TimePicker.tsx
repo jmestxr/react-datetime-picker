@@ -4,8 +4,8 @@ import {
   get12Hour,
   isAM,
   padNumberWithZero,
-} from "../functions/functions";
-import { DateTime, DateTimePickerMode, TimeNumber } from "../types/types";
+} from "../../functions/functions";
+import { DateTime, DateTimePickerMode, TimeNumber } from "../../types/types";
 import "./timepicker.css";
 
 type TimePickerMode = {
